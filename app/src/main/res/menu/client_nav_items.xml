@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/homepage"
+        android:title="@string/home_page" />
+    <item
+        android:id="@+id/family_covid_case"
+        android:title="@string/covid_cases" />
+    <item
+        android:id="@+id/newspage"
+        android:title="@string/news_and_announcements" />
+    <item
+        android:id="@+id/family_logout"
+        android:title="@string/log_out" />
+
+</menu>

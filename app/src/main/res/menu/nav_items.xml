@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--
+                Add menu items here
+                Menu items with icon and Title
+        -->
+        <item
+            android:id="@+id/family_checklist"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Family Checklist" />
+        <item
+            android:id="@+id/historylogs"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="History Logs" />
+        <item
+            android:id="@+id/news_announcements"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="News/Announcements" />
+        <item
+            android:id="@+id/covid_case"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Create Daily Covid Case Report" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Log Out" />
+    </group>
+</menu>
